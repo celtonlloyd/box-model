@@ -54,13 +54,14 @@ h1{
     font-weight: bolder ;
     font-size: larger;
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 
 /* boxes */
 .box{
-    width: 100px;
-    height: 75px;
+    width: 125px;
+    height: 80px;
     background-color: brown;
     display: inline-block;
     margin: 15px;
@@ -77,4 +78,25 @@ h1{
 }
 .box4{
     border-style: none ;
+}
+
+/* fancy box */
+
+p{
+    width: 280px;
+    color: rgb(228, 216, 194);
+    background-color: rgb(255, 60, 60);
+    padding: 20px ;
+    border-top: solid 20px blue;
+    border-right: solid 20px rgb(206, 97, 97) ;
+    border-left:solid 20px red ;
+    border-bottom: 20px solid yellow;
+    margin: auto;
+}
+.fancy-box{width: 400px ;
+            height:465px ;
+            padding-top: 35px;
+    
+    background-color: purple;
+
 }
