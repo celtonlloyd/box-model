@@ -47,51 +47,15 @@ table {
 	border-spacing: 0;
 }
 
-/* boxes */
 div{
-    width: auto;
-    margin: 0 16.5%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 10px black dashed;
+    margin: 20px;background-color: red;
 }
-
-section{
-    
-    display: inline-block;
-    height:200px  ;
-    width: 200px;
-    background-color: red;
-    margin: 7px 6px ;
-    color: white;    
-    
-}
-p{padding: 13px;}
-.long{
-    width: 400px;
-}
-/* box color */
-.box1{background-color: #fe5349;
-
-}
-
-.box2{background-color: #fe5349;
-    
-}
-.box3{background-color: #b601ff;
-    
-}
-.box4{background-color: #0dc1fd;
-    
-}
-.box5{background-color: #08ca80;
-    
-}
-.box6{background-color:#01f361 ;
-    
-}
-.box7{background-color: #e8ff1d;
-    
-}.box8{background-color:#fe7405 ;
-    
-}.box9{background-color: #e52f2d;
-    
+.border-box{box-sizing: border-box;}
+p{
+    margin-left: 20px;
+    margin-top: 10px;
 }
