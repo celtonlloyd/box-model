@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* styles */
+body{
+    font-family: sans-serif;
+}
+h1{ font-size: 27px;
+}
+h1, nav{
+    text-align: center;
+     padding-top: 10px;
+     color: white;
+}
+h3{
+    padding-top: 120px;
+    padding-bottom: 20px;
+    color: white;
+    font-size:30px ;
+}
+h2, h3, h4, p, img , hr, article a {
+    margin: 0 10%;
+}
+a{text-decoration: none;
+    color: #dee0eb;
+    font-size: 11px ;
+    padding:  7px;
+    letter-spacing: 1px;
+    }
+h4{
+    padding: 30px 0 100px 0  ;
+    color: #6f717c;
+    font-size: 13px;
+}
+hr{ 
+    border-color:gray; 
+    border-width: 0.35px;
+    
+     
+}
+h2{
+    padding-top:20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: white;
+    
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+    
+    
+}
+article p{
+    padding-top:20px ;
+    padding-bottom: 8px;
+    color: #b4bad2;
+    font-size: 13px;
+    word-spacing: 1px;
+}
+article a{
+    display: inline-block;
+    padding-left: 0px;
+    padding-bottom:15px ;
+    font-size:9px ;
+}
+footer p{
+ font-size: 13px;   
+ color: #8a8c95;
+ padding: 15px 0 15px 0;
+}
+
+   
+/* backgrounds */
+header{
+    background-color: #2e3141;
+}
+.article1{
+    background-color: #4c5c96;
+}
+.article2{
+    background-color: #45558d;
+}
+.article3{
+    background-color: #3f4e85;
+}
+footer{
+    background-color: #2d3040;
+}
+
+
