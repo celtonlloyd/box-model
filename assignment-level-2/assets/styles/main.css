@@ -48,7 +48,7 @@ table {
 }
 /* font-styling */
 body{
-    margin: 3%;
+    margin-left: 3%;
 }
 h1{
     font-weight: bolder ;
@@ -93,10 +93,9 @@ p{
     border-bottom: 20px solid yellow;
     margin: auto;
 }
-.fancy-box{width: 400px ;
-            height:465px ;
-            padding-top: 35px;
-    
+.fancy-box{
+    display: inline-block;
+    padding: 30px 20px;
     background-color: purple;
-
+    margin: 10px;
 }
